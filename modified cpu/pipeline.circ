@@ -23,12 +23,12 @@
   <lib desc="#BFH-Praktika" name="10"/>
   <lib desc="#Input/Output-Extra" name="11"/>
   <lib desc="#Soc" name="12"/>
-  <lib desc="file#..\ALU_32bit.circ" name="13"/>
-  <lib desc="file#..\Program_Counter.circ" name="14"/>
-  <lib desc="file#..\Register_file.circ" name="15"/>
-  <lib desc="file#..\Control_Unit.circ" name="16"/>
-  <lib desc="file#..\Data_Memory.circ" name="17"/>
-  <lib desc="file#..\Register_file.circ" name="18"/>
+  <lib desc="file#..\Data_Memory.circ" name="13"/>
+  <lib desc="file#..\Register_file.circ" name="14"/>
+  <lib desc="file#..\Program_Counter.circ" name="15"/>
+  <lib desc="file#..\ALU_32bit.circ" name="16"/>
+  <lib desc="file#..\Register_file.circ" name="17"/>
+  <lib desc="file#..\Control_Unit.circ" name="18"/>
   <main name="main"/>
   <options>
     <a name="gateUndefined" val="ignore"/>
@@ -347,11 +347,11 @@
     </comp>
     <comp lib="1" loc="(3020,920)" name="AND Gate"/>
     <comp lib="1" loc="(3020,970)" name="AND Gate"/>
-    <comp lib="13" loc="(2800,1130)" name="ALU_32bit"/>
-    <comp lib="14" loc="(900,1110)" name="Program_Counter"/>
-    <comp lib="15" loc="(2140,1090)" name="Register_File_Test"/>
-    <comp lib="16" loc="(2140,650)" name="Control_Unit_Extended"/>
-    <comp lib="17" loc="(3210,1150)" name="Data_Memory"/>
+    <comp lib="13" loc="(3210,1150)" name="Data_Memory"/>
+    <comp lib="15" loc="(900,1110)" name="Program_Counter"/>
+    <comp lib="16" loc="(2800,1130)" name="ALU_32bit"/>
+    <comp lib="17" loc="(2140,1090)" name="Register_File_Test"/>
+    <comp lib="18" loc="(2140,650)" name="Control_Unit_Extended"/>
     <comp lib="2" loc="(1900,1150)" name="Multiplexer">
       <a name="selloc" val="tr"/>
       <a name="width" val="32"/>
