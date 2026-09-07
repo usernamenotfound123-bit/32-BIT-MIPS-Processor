@@ -40,3 +40,18 @@ Below is a table of all supported MIPS instructions by this processor. All instr
 | xor   | [rd] = [rs] ^ [rt]         |
 | xori   | [rt] = [rs] ^ zeroImm         |
 
+## How to Use
+
+1. Download **Logisim Evolution** <https://github.com/logisim-evolution/logisim-evolution>  
+2. Clone or download this repository  
+3. Open any `.circ` file in Logisim Evolution  
+4. Simulate the circuits by applying inputs and observing outputs  
+5. *(Optional)* Write an assembly program and use the assembler to turn it into a hex file:
+   ```bash
+   python assembler.py input.asm output.hex
+   ```
+   
+## 📝 License
+
+MIT License – Free to use, share, and modify.  
+If you use this project in a class or tutorial, please credit the creater!
