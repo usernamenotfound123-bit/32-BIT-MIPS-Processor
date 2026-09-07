@@ -1,0 +1,9 @@
+        addi $t0, $zero, 0
+        addi $s2, $zero, 2073600     
+draw_loop:
+        beq  $t0, $s2, done
+        lw   $s0, 0($t0)
+        addi $t0, $t0, 4
+        j    draw_loop
+done:
+        j    done             
