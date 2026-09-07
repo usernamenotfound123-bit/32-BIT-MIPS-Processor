@@ -12,14 +12,31 @@ Finally in the `modified cpu` folder, the final versions of the processor exists
 
 
 ## Instructions
-Below is a table of all supported MIPS instructions by this processor. All instructions are completely similar to standard MIPS insturctions.
+Below is a table of all supported MIPS instructions by this processor. All instructions are completely similar (OPcode and Funct) to standard MIPS insturctions.
 
-| INSTRUcTION | Funct (F3-0) | ALU-Control | Hex |
-|-------|--------------|-------------|-----|
-| 00    | xxxxxx       | 0010 (ADD)  | 2   |
-| x1    | xxxxxx       | 0110 (SUB)  | 6   |
-| 10    | 0000         | 0010 (ADD)  | 2   |
-| 10    | 0010         | 0110 (SUB)  | 6   |
-| 10    | 0100         | 0000 (AND)  | 0   |
-| 10    | 0101         | 0001 (OR)   | 1   |
-| 10    | 1010         | 0111 (SLT)  | 7   |
+| INSTRUCTION | FUNCTION |
+|-------|--------------|
+| add    | [rd] = [rs] + [rt]  |  
+| sub   | xxxxxx       |
+| addi   | 0000         | 
+| and  | 0010         |
+| or   | 0100         | 
+| andi    | 0101         |
+| ori  | 1010         |
+| lui   | xxxxxx       |  
+| slt   | xxxxxx       |
+| slti   | 0000         | 
+| lw  | 0010         |
+| sw    | 0100         | 
+| beq    | 0101         |
+| bne   | 1010         |
+| j   | xxxxxx       |  
+| jr    | xxxxxx       |
+| jal    | 0000         | 
+| sll   | 0010         |
+| srl   | 0100         | 
+| sra   | 0101         |
+| nor   | 1010         |
+| xor   | 0101         |
+| xori   | 1010         |
+
