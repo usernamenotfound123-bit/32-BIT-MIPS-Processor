@@ -1,7 +1,7 @@
 # 32BIT MIPS PROCESSOR
 This repository contains all the files used in designing a **32bit single cycle MIPS processor** in logisim evolution v4.1.0.
 ---
-This project was created as part of my digital design and computer architecture learning.
+This project was created as part of my digital design and computer architecture study.
 
 ## A quick explanation of files used in this project:
 - In the main folder, all parts used in building the data path and control unit of the processor exists which are used as libraries in the final project. 
